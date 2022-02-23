@@ -85,4 +85,8 @@ public class Client {
         System.out.println("ID # : " + getIdNumber() + "\nFirst Name : " + getFirstName() +
                 "\nLast Name : " + getLastName() + "\nAge : " + getAge() + "\nCard Info : \n" + newCard.Display());
     }
+
+    public void cardDisplay(){
+        System.out.println(newCard.Display());
+    }
 }
