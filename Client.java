@@ -5,9 +5,7 @@ public class Client {
     private String FirstName;
     private String LastName;
     private int Age;
-    private Card newCard;//Composite has-a
-
-    //public Client(){}
+    private Card newCard; //Composite has-a
 
     public Client(int idNumber, String firstName, String lastName, int age, Card newCard) {
         this.idNumber = idNumber;
@@ -34,11 +32,6 @@ public class Client {
         Age = age;
     }
 
-//    public void setNewCard(Card newCard) {
-//
-//        this.newCard = newCard;
-//    }
-
     //Getters below this line
     public int getIdNumber() {
         return idNumber;
@@ -59,27 +52,6 @@ public class Client {
     public Card getNewCard() {
         return newCard;
     }
-
-//    public void clientPrompt(){
-//        System.out.println("Enter Id # : ");
-//        setIdNumber(scan.nextInt());
-//        System.out.println("First Name : ");
-//        setFirstName(scan.next());
-//        System.out.println("Last Name : ");
-//        setLastName(scan.next());
-//        System.out.println("Age : ");
-//        setAge(scan.nextInt());
-//        System.out.println("Enter card details below : == \n");
-//        System.out.println("Enter Card # : ");
-//        newCard.setCardNumber(scan.nextInt());
-//        System.out.println("Enter PIN # : ");
-//        newCard.setPin(scan.nextInt());
-//        System.out.println("Enter Balance : $");
-//        newCard.setBalance(scan.nextDouble());
-//        System.out.println("Enter Status : ");
-//        newCard.setStatus(scan.nextBoolean());
-//
-//    }
 
     public void Display(){
         System.out.println("ID # : " + getIdNumber() + "\nFirst Name : " + getFirstName() +
