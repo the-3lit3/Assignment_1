@@ -1,8 +1,8 @@
 package com.sanjaeJava.domain;
-import java.util.*;
+//import java.util.*;
 
 public class Card {
-    Scanner scan = new Scanner(System.in);
+    //Scanner scan = new Scanner(System.in);
     private int CardNumber;
     private int Pin;
     private double Balance;
@@ -18,25 +18,25 @@ public class Card {
 
 
     public void setCardNumber(int cardNumber) {
-        CardNumber = cardNumber;
+        this.CardNumber = cardNumber;
     }
 
     public void setPin(int pin) {
-        Pin = pin;
+        this.Pin = pin;
     }
 
     public void setBalance(double balance) {
-        Balance = balance;
+        this.Balance = balance;
     }
 
     public void setStatus(boolean status) {
         Status = status;
     }
-
+    //Getters below this line
     public int getCardNumber() {
         return CardNumber;
     }
-//Getters below this line
+
     public int getPin() {
         return Pin;
     }
