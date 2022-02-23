@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         Scanner scan = new Scanner(System.in);
-        Card newCard = new Card(287823,1234,2500.50, true);
+        Card newCard = new Card(45678,1234,2500.50, false);
         Client Obj1 = new Client(0,"Sanjae","Facey",34,newCard);
         //Obj1.clientPrompt();
             System.out.println("Enter Id # : ");
@@ -27,7 +27,13 @@ public class Main {
             newCard.setBalance(scan.nextDouble());
             System.out.println("Enter Status : ");
             newCard.setStatus(scan.nextBoolean());
+            System.out.println("\nThis is the combined information of the Client and Card...\n++===================================++");
             Obj1.Display();
+            System.out.println("++====================================++");
+            System.out.println("\nThis is the Card Information only...\n++===================================++");
+            Obj1.cardDisplay();
+            System.out.println("++====================================++");
+
         }
 
 
