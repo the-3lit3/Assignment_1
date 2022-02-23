@@ -1,8 +1,6 @@
 package com.sanjaeJava.domain;
-//import java.util.*;
 
 public class Card {
-    //Scanner scan = new Scanner(System.in);
     private int CardNumber;
     private int Pin;
     private double Balance;
