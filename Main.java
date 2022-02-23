@@ -9,7 +9,6 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         Card newCard = new Card(45678,1234,2500.50, false);
         Client Obj1 = new Client(0,"Sanjae","Facey",34,newCard);
-        //Obj1.clientPrompt();
             System.out.println("Enter Id # : ");
             Obj1.setIdNumber(scan.nextInt());
             System.out.println("First Name : ");
